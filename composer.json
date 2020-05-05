@@ -1,0 +1,30 @@
+{
+    "name": "test/autoregister",
+    "type": "library",
+    "description": "test autoregister",
+    "keywords": [
+        "test",
+        "autoregister"
+    ],
+    "homepage": "https://github.com/phobo/test-autoregister",
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Phobo\\TestAutoRegister\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Phobo\\TestAutoRegister\\BaseServiceProvider"
+            ]
+        }
+    }
+}
