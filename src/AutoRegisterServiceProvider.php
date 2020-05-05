@@ -26,8 +26,8 @@ class AutoRegisterServiceProvider extends ServiceProvider
     public function register()
     {
         // register the current package
-        $this->app->bind('base', function ($app) {
-            return new Base($app);
+        $this->app->bind('autoregister', function ($app) {
+            return new AutoRegister($app);
         });
 
         $this->commands([

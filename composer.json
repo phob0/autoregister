@@ -3,7 +3,6 @@
     "type": "library",
     "description": "test autoregister",
     "keywords": [
-        "test",
         "autoregister"
     ],
     "homepage": "https://github.com/phobo/autoregister",
