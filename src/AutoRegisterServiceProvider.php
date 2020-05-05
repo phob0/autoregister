@@ -29,5 +29,9 @@ class AutoRegisterServiceProvider extends ServiceProvider
         $this->app->bind('base', function ($app) {
             return new Base($app);
         });
+
+        $this->commands([
+            Console\Test::class
+        ]);
     }
 }
