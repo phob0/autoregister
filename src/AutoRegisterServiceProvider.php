@@ -1,12 +1,10 @@
 <?php
 
-namespace Phobo\TestAutoload;
+namespace Phobo\AutoRegister;
 
-use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use Route;
 
-class TestAutoloadServiceProvider extends ServiceProvider
+class AutoRegisterServiceProvider extends ServiceProvider
 {
     const VERSION = '1.0';
 

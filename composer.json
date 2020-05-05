@@ -1,17 +1,17 @@
 {
-    "name": "test/autoregister",
+    "name": "phobo/autoregister",
     "type": "library",
     "description": "test autoregister",
     "keywords": [
         "test",
         "autoregister"
     ],
-    "homepage": "https://github.com/phobo/test-autoregister",
+    "homepage": "https://github.com/phobo/autoregister",
     "require": {},
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "Phobo\\TestAutoRegister\\": "src"
+            "Phobo\\AutoRegister\\": "src"
         }
     },
     "scripts": {
@@ -23,7 +23,7 @@
         },
         "laravel": {
             "providers": [
-                "Phobo\\TestAutoRegister\\BaseServiceProvider"
+                "Phobo\\AutoRegister\\AutoRegisterServiceProvider"
             ]
         }
     }
